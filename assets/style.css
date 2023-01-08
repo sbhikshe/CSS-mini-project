@@ -18,6 +18,47 @@ header p {
   color: var(--paragraph-color);
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+}
+.css-item {
+  display: inline;
+  width: 30%;
+}
+.css-item h2 {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 10px;
+}
+.css-item .description {
+  font-size: 90%;
+}
+.css-item .item-content {
+  border-style: dashed;
+  border-color: var(--border-color);
+  padding: 10px;
+
+}
+.css-item .code {
+  font-family: monospace;
+}
+
+@media screen and (max-width: 992px){
+    .css-item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px){
+    .css-item {
+    width: 100%;
+  }
+}
+
 .css-item h2 {
   color: var(--heading--color);
 }
