@@ -10,6 +10,11 @@ This is a small project to use various CSS features in designing a simple websit
 - apply a linear gradient with colors to the code snippets
 - apply a background color transition to the box containing the code snippet
 
+## Screenshot
+A screenshot of the web page:
+
+![CSS Mini Project](./Screenshot.png)
+
 ## References
 [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)\
 [CSS Selectors](https://www.w3schools.com/cssref/css_selectors.php)\
