@@ -40,6 +40,10 @@ header p {
   flex: 1 1 30%;
   border-style: dashed;
   border-color: var(--border-color);
+  transition: background-color 2s;
+}
+.css-item:hover {
+  background-color: rgb(112, 62, 89);
 }
 .css-item h2 {
   border: 1px solid var(--border-color);
@@ -52,11 +56,11 @@ header p {
   background-color: var(--background-color);
   color: var(--heading--color);
 }
-
 .css-item .description {
   font-size: 90%;
   color: var(--heading--color);
 }
+
 .css-item .item-content {
   position: relative;
   width: 95%;
